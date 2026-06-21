@@ -46,8 +46,3 @@ def save_to_csv(data, filename):
 car = input("Enter manufacturer name: ")
 car_data = get_car_data(car)
 save_to_csv(car_data, f"{car}_pricelist.csv")
-
-
-
-
-
